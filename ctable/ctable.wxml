@@ -1,0 +1,17 @@
+<!-- components/ctable/ctable.wxml -->
+<view class="ctable">
+  <view class="ctable-left" style="flex: {{ leftflex }}; font-weight: {{ leftfont ? 'bold' : '' }}">
+    <block wx:for="{{ left }}" wx:key="index">
+      <view class="ctable-item" style="border: {{ bordered ? '' : '0' }}; background-color: {{ striped ? '' : '#ffffff' }}">
+        {{ item }}
+      </view>
+    </block>
+  </view>
+  <view class="ctable-right" style="flex: {{ rightflex }}; font-weight: {{ rightfont ? 'bold' : '' }}">
+    <block wx:for="{{ right }}" wx:key="index">
+      <view class="ctable-item" style="border: {{ bordered ? '' : '0' }}; background-color: {{ striped ? '' : '#ffffff' }}">
+        {{ item }}
+      </view>
+    </block>
+  </view>
+</view>

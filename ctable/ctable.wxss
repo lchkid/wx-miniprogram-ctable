@@ -1,0 +1,25 @@
+.ctable {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.ctable .ctable-left .ctable-item {
+  border-left: 2rpx solid #8a8a8a;
+  border-top: 2rpx solid #8a8a8a;
+}
+.ctable .ctable-left .ctable-item:last-child {
+  border-bottom: 2rpx solid #8a8a8a;
+}
+.ctable .ctable-right .ctable-item {
+  border-left: 2rpx solid #8a8a8a;
+  border-top: 2rpx solid #8a8a8a;
+  border-right: 2rpx solid #8a8a8a;
+}
+.ctable .ctable-right .ctable-item:last-child {
+  border-bottom: 2rpx solid #8a8a8a;
+}
+.ctable .ctable-item:nth-child(odd) {
+  background-color: #e9edf2;
+}
