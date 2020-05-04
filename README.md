@@ -1,10 +1,10 @@
-### 微信小程序纵向双列表格ctable
+## 微信小程序纵向双列表格ctable
 
-#### WHY
+### WHY
 
 做小程序展示数据的时候想要做一个纵向的表格，于是做了这个小组件以供重复使用。
 
-#### 引入组件
+### 引入组件
 
 ```json
 "usingComponents": {
@@ -12,19 +12,17 @@
 }
 ```
 
-#### 基本使用
+### 基本使用
 
 ```html
 <c-table left="{{ 左列数据 }}" right="{{ 右列数据 }}" />
 ```
 
-#### 效果演示
+### 效果演示
 
+![](https://raw.githubusercontent.com/lchkid/wx-miniprogram-ctable/master/screenshot/screenshot.png)
 
-
-
-
-#### 自定义属性
+### 自定义属性
 
 |   参数    |       说明       |  类型   | 默认值 |
 | :-------: | :--------------: | :-----: | :----: |
